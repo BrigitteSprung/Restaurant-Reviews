@@ -1,4 +1,4 @@
-import http from "..http-common";
+import http from "../http-common";
 
 class RestaurantDataService {
     getAll(page = 0) {
@@ -30,3 +30,4 @@ class RestaurantDataService {
       }
     
 }
+export default new RestaurantDataService();
