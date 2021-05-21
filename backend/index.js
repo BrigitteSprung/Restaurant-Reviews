@@ -2,6 +2,8 @@ import app from "./server.js"
 import mongodb from "mongodb"
 import dotenv from "dotenv"
 
+console.log("Hello")
+
 dotenv.config()
 const MongoClient = mongodb.MongoClient
 
